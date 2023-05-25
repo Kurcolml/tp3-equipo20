@@ -1,0 +1,54 @@
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\dominio\bin\Debug\dominio.dll
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\dominio\bin\Debug\dominio.pdb
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\dominio\obj\Debug\dominio.dll
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\dominio\obj\Debug\dominio.pdb
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\dominio\bin\Debug\dominio.dll
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\dominio\bin\Debug\dominio.pdb
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\dominio\obj\Debug\dominio.dll
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\dominio\obj\Debug\dominio.pdb
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\dominio\bin\Debug\dominio.dll
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\dominio\bin\Debug\dominio.pdb
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\dominio\obj\Debug\dominio.dll
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\dominio\obj\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\dominio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\dominio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\dominio\obj\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\dominio\obj\Debug\dominio.pdb
+C:\Users\manue\Desktop\New folder\TPWinForm-main\dominio\bin\Debug\dominio.dll
+C:\Users\manue\Desktop\New folder\TPWinForm-main\dominio\bin\Debug\dominio.pdb
+C:\Users\manue\Desktop\New folder\TPWinForm-main\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\New folder\TPWinForm-main\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\New folder\TPWinForm-main\dominio\obj\Debug\dominio.dll
+C:\Users\manue\Desktop\New folder\TPWinForm-main\dominio\obj\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\dominio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\dominio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\dominio\obj\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\dominio\obj\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\dominio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\dominio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\dominio\obj\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\dominio\obj\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\dominio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\dominio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\dominio\obj\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\dominio\obj\Debug\dominio.pdb
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\bin\Debug\dominio.dll
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\bin\Debug\dominio.pdb
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\obj\Debug\dominio.dll
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\obj\Debug\dominio.pdb

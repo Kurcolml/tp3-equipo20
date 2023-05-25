@@ -1,0 +1,81 @@
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\bin\Debug\negocio.dll
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\bin\Debug\negocio.pdb
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\bin\Debug\dominio.dll
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\bin\Debug\dominio.pdb
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\obj\Debug\negocio.dll
+C:\Users\manue\Desktop\New folder (2)\TPWinForm-main\negocio\obj\Debug\negocio.pdb
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\bin\Debug\negocio.dll
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\bin\Debug\negocio.pdb
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\bin\Debug\dominio.dll
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\bin\Debug\dominio.pdb
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\obj\Debug\negocio.dll
+C:\Users\TT\Desktop\Curso C#\TP\TPWinForm\negocio\obj\Debug\negocio.pdb
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\bin\Debug\negocio.dll
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\bin\Debug\negocio.pdb
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\bin\Debug\dominio.dll
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\bin\Debug\dominio.pdb
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\obj\Debug\negocio.dll
+C:\Users\manue\Desktop\Repositorios Github\TPWinForm-main\negocio\obj\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\bin\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\bin\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\obj\Debug\negocio.csproj.CopyComplete
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\obj\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion2.0\TPWinForm\negocio\obj\Debug\negocio.pdb
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\bin\Debug\negocio.dll
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\bin\Debug\negocio.pdb
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\bin\Debug\dominio.dll
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\bin\Debug\dominio.pdb
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\obj\Debug\negocio.dll
+C:\Users\manue\Desktop\New folder\TPWinForm-main\negocio\obj\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\bin\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\bin\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\obj\Debug\negocio.csproj.CopyComplete
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\obj\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\UpdatedVersion\TPWinForm\negocio\obj\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\bin\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\bin\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\obj\Debug\negocio.csproj.CopyComplete
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\obj\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 2.0\TPWinForm\negocio\obj\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\bin\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\bin\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\obj\Debug\negocio.csproj.CopyComplete
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\obj\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\Winforms\Updated 3.0\TPWinForm\negocio\obj\Debug\negocio.pdb
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\bin\Debug\negocio.dll
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\bin\Debug\negocio.pdb
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\bin\Debug\dominio.dll
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\bin\Debug\dominio.pdb
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\obj\Debug\negocio.dll
+C:\Users\manue\Desktop\TPWinForm_Equipo20-main\negocio\obj\Debug\negocio.pdb
