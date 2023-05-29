@@ -17,16 +17,14 @@
                             <img src="<%--<%:art.Imagenes[0].Url%--%>>" class="card-img-top" alt="...">
                             <p class="title"><%:art.Nombre %></p>
                             <p><%:art.Descripcion %></p>
-                            <div class="d-grid gap-2 d-md-block">
-                             <asp:Button ID="Button3" class="btn btn-primary" runat="server" Text="Agregar al carrito" />
-                        </div>
+                            <div class="d-grid gap-2 d-md-block">              
+                            </div>
                         </div>
                         <div class="flip-card-back">
                            <h5 class="card-title"><%:art.Nombre %></h5>
-                    <p class="card-text"><%:art.Descripcion %></p>
-                    <p class="card-text"><%:art.Marca %></p>
-                      <p class="card-text"><%:art.Categoria%></p>
-                    <p class="card-text"><small class="text-body-secondary">Precio <%:art.Precio%></small></p>
+                            <p class="card-text"><small class="text-body-secondary">Precio <%:art.Precio%></small></p>
+                            <asp:Button ID="Button3" class="btn btn-primary" runat="server" Text="Agregar al carrito" />
+                            <a href="DetallesArticulos.aspx?Nombre=<%:art.Nombre%>" class="btn btn-primary">Ver detalles</a>
                         </div>
                     </div>
                 </div>
