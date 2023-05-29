@@ -52,3 +52,9 @@ C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\obj\Debug\dominio.csproj.
 C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\obj\Debug\dominio.dll
 C:\Users\manue\Desktop\TPWinForm_Equipo20-main\dominio\obj\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\dominio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\dominio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\dominio\obj\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\dominio\obj\Debug\dominio.pdb

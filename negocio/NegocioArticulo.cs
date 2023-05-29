@@ -61,6 +61,52 @@ namespace negocio
 
         }
 
+        public List<Articulo> ListarConSP()
+        {
+            List<Articulo> lista = new List<Articulo>();
+            AccesoDatos datos = new AccesoDatos();
+            NegocioImagen misImagens = new NegocioImagen();
+
+            try
+            {
+                //string consulta = "Select a.Id, a.Codigo, Nombre,a.Descripcion,a.IdMarca,a.IdCategoria,c.DESCRIPCION as Categoria,m.DESCRIPCION as Marca,Precio from ARTICULOS a , categorias c, marcas m where a.idcategoria=c.ID and a.idMarca=m.id ";
+
+                // datos.setearConsulta(consulta);
+                datos.setearProcedimiento("storedListar");
+                datos.ejecutarLectura();
+
+                while (datos.Lector.Read())
+                {
+                    Articulo aux = new Articulo();
+                    aux.Id = datos.Lector.GetInt32(0);
+                    aux.Codigo = (string)datos.Lector["Codigo"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.Descripcion = (string)datos.Lector["Descripcion"];
+                    aux.Categoria = new Categoria();
+                    aux.Categoria.Id = datos.Lector.GetInt32(5);
+                    aux.Categoria.Descripcion = (string)datos.Lector["Categoria"];
+                    aux.Marca = new Marca();
+                    aux.Marca.Id = datos.Lector.GetInt32(4);
+                    aux.Marca.Descripcion = (string)datos.Lector["Marca"];
+                    aux.Precio = (decimal)datos.Lector["Precio"];
+                    aux.Imagenes = misImagens.Listar(datos.Lector.GetInt32(0));
+                    lista.Add(aux);
+
+                }
+                return lista;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+
+        }
+
 
         public List<Articulo> ListarXNombre(string nombre)
         {

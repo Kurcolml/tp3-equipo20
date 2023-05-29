@@ -43,3 +43,48 @@ C:\Users\manue\Desktop\TP WEB\WebApplication1\WebApplication1\obj\Debug\TP WEB.c
 C:\Users\manue\Desktop\TP WEB\WebApplication1\WebApplication1\obj\Debug\TP WEB.csproj.CopyComplete
 C:\Users\manue\Desktop\TP WEB\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
 C:\Users\manue\Desktop\TP WEB\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\WebApplication1.dll.config
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\WebApplication1.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\WebApplication1.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\csc.exe
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\csc.exe.config
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\csc.rsp
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\csi.exe
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\csi.exe.config
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\csi.rsp
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\System.Buffers.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\System.Collections.Immutable.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\System.Memory.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\System.Numerics.Vectors.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\System.Reflection.Metadata.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\vbc.exe
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\vbc.exe.config
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\vbc.rsp
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\VBCSCompiler.exe
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\roslyn\VBCSCompiler.exe.config
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\dominio.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\negocio.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\dominio.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\negocio.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\obj\Debug\TP WEB.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\obj\Debug\TP WEB.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\obj\Debug\TP WEB.csproj.CopyComplete
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\obj\Debug\WebApplication1.dll
+D:\User\Desktop\C#\Programacion III\ASPX\tp3-equipo20\WebApplication1\obj\Debug\WebApplication1.pdb
