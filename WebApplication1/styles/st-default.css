@@ -1,0 +1,22 @@
+﻿
+.count {
+    color: #ffffff;
+    max-width: none;
+    background-color: #ff0000;
+    border-radius: 30px;
+    height: 23px;
+    width: 19px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    left: -322px;
+    position: relative;
+}
+.invisible {
+   opacity:0;
+}
+.btnCarrito {
+    position: relative;
+    left: 1157px;
+    top: 10px;
+}

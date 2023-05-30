@@ -2,12 +2,70 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
     <h1>ARTICULOS</h1>
+   
 
+
+     <div class="container text-center btnCarrito " id="count">
+  <div class="row">
+  
+    <div class="col">
+      <asp:Button ID="btnCarro" runat="server" CssClass="btn btn-primary "  OnClick="btnCarro_Click" type="button" Text="Carrito " />
+    </div>
+    <div class="col">
+       
+        <div >
+            
+       <asp:Label ID="lblCompra"  runat="server" CssClass="count" ></asp:Label>
+
+            </div>
+    
+    </div>
+  </div>
+   </div>
+     
     <div class="row row-cols-1 row-cols-md-3 g-4">
+        <asp:Repeater ID="rprCards" runat="server">
+            <ItemTemplate>
 
-        <%
+
+
+                 <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <%--<img src="<%#Eval("img.Url") %>" alt="...">--%>
+                            <p class="title"><%#Eval("Nombre")%></p>
+                            <p><%#Eval("Descripcion") %></p>
+                            <div class="d-grid gap-2 d-md-block">              
+                            </div>
+                        </div>
+                        <div class="flip-card-back">
+                           <h5 class="card-title"><%#Eval("Nombre") %></h5>
+                            <p class="card-text"><small class="text-body-secondary">Precio <%#Eval("Precio")%></small></p>
+                            <asp:Button ID="btnAdd" runat="server"  CssClass="btnAdd" OnClick="btnAdd_Click" type="button" Text=" Agregar " 
+                                CommandArgument='<% #Eval("Id")%>' CommandName="artId" />
+                          <a href="DetallesArticulos.aspx?Nombre=<%#Eval("Nombre") %>" class="btn btn-primary">Ver detalles</a>
+                                
+                           
+                        </div>
+                    </div>
+                </div>    
+
+            </ItemTemplate>
+
+
+
+
+        </asp:Repeater>
+        </div>
+      
+
+
+
+
+
+    <%--    <%
             foreach (dominio.Articulo art in ListaArticulos)
             {
                 listaImagenes = negocioImg.Listar(art.Id);
@@ -39,7 +97,7 @@
                     </div>
                 </div>    
          <% } %>
-    </div>
+    </div>--%>
 
     <style>
 .flip-card {
