@@ -27,5 +27,12 @@ namespace WebApplication1
             listaImagenes = negocioImg.Listar(art.Id);
 
         }
+
+        protected void Btn_volver_Click(object sender, EventArgs e)
+        {
+                Response.Redirect("Default.aspx", false);
+
+            
+        }
     }
 }

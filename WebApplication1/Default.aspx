@@ -3,66 +3,52 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-    <h1>ARTICULOS</h1>
-   
 
-
-     <div class="container text-center btnCarrito " id="count">
-  <div class="row">
-  
-    <div class="col">
-      <asp:Button ID="btnCarro" runat="server" CssClass="btn btn-primary "  OnClick="btnCarro_Click" type="button" Text="Carrito " />
-    </div>
-    <div class="col">
-       
-        <div >
-            
-       <asp:Label ID="lblCompra"  runat="server" CssClass="count" ></asp:Label>
-
-            </div>
-    
-    </div>
-  </div>
-   </div>
-     
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-        <asp:Repeater ID="rprCards" runat="server">
-            <ItemTemplate>
-
-
-
-                 <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
-                            <%--<img src="<%#Eval("img.Url") %>" alt="...">--%>
-                            <p class="title"><%#Eval("Nombre")%></p>
-                            <p><%#Eval("Descripcion") %></p>
-                            <div class="d-grid gap-2 d-md-block">              
+                 <div class="container text-center btnCarrito " id="count">
+                        <div class="row">
+                            <div class="col">
+                              <asp:Button ID="btnCarro" runat="server" CssClass="btn btn-primary "  OnClick="btnCarro_Click" type="button" Text="Carrito " />
+                            </div>
+                            <div class="col">
+                                <div>           
+                               <asp:Label ID="lblCompra"  runat="server" CssClass="count" ></asp:Label>
+                                    </div>  
                             </div>
                         </div>
-                        <div class="flip-card-back">
-                           <h5 class="card-title"><%#Eval("Nombre") %></h5>
-                            <p class="card-text"><small class="text-body-secondary">Precio <%#Eval("Precio")%></small></p>
-                            <asp:Button ID="btnAdd" runat="server"  CssClass="btnAdd" OnClick="btnAdd_Click" type="button" Text=" Agregar " 
-                                CommandArgument='<% #Eval("Id")%>' CommandName="artId" />
-                          <a href="DetallesArticulos.aspx?Nombre=<%#Eval("Nombre") %>" class="btn btn-primary">Ver detalles</a>
+               </div>
+
+    <section class="articulos">
+     
+        <div class="mega-main">
+                <div class="main">
+                    <asp:Repeater ID="rprCards" runat="server">
+                        <ItemTemplate>
+                             <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                       <img src="<%--<%#Eval("img.Url") %>"--%> alt="...">
+                                        <p class="title"><%#Eval("Nombre")%></p>
+                                        <p><%#Eval("Descripcion") %></p>
+                                        <div class="d-grid gap-2 d-md-block">              
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                       <h5 class="card-title"><%#Eval("Nombre") %></h5>
+                                        <p class="card-text"><small class="text-body-secondary">Precio <%#Eval("Precio")%></small></p>
+                                        <asp:Button ID="btnAdd" runat="server"  CssClass="btnAdd" OnClick="btnAdd_Click" type="button" Text=" Agregar " 
+                                            CommandArgument='<% #Eval("Id")%>' CommandName="artId" />
+                                      <a href="DetallesArticulos.aspx?Nombre=<%#Eval("Nombre") %>" class="btn btn-primary">Ver detalles</a>
                                 
                            
-                        </div>
+                                    </div>
+                                </div>
+                            </div>    
+
+                        </ItemTemplate>
+                    </asp:Repeater>
                     </div>
-                </div>    
-
-            </ItemTemplate>
-
-
-
-
-        </asp:Repeater>
-        </div>
-      
-
-
-
+            </div>
+        </section>
 
 
     <%--    <%
@@ -100,14 +86,68 @@
     </div>--%>
 
     <style>
-.flip-card {
-  background-color: transparent;
-  width: 190px;
-  height: 254px;
-  perspective: 1000px;
-  font-family: sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
+.navbar h1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent /*crimson*/;
+    color:floralwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    transition: .5s;
+}
+
+
+.articulos{
+    min-height: auto;
+    padding-bottom: 10rem;
+}
+
+
+.mega-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .main{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 450px;
+      perspective: 1000px;
+      font-family: sans-serif;
+      padding: 2rem; 
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-botones{
+    padding:5px;
+    align-items:center;
+    justify-content:space-between;
+}
 .title {
   font-size: 1.5em;
   font-weight: 900;
