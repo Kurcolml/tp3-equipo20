@@ -34,7 +34,8 @@
     <style>
         .div-img{
             display:flex;
-            justify-content:space-between;
+            justify-content:center;
+            gap: 5px;
         }
 
         .card-detalle{

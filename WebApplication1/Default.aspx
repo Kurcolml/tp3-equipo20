@@ -4,6 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
 
+
                  <div class="container text-center btnCarrito " id="count">
                         <div class="row">
                             <div class="col">
@@ -14,7 +15,7 @@
                                <asp:Label ID="lblCompra"  runat="server" CssClass="count" ></asp:Label>
                                     </div>  
                             </div>
-                        </div>
+                       </div>
                </div>
 
     <section class="articulos">
@@ -23,26 +24,26 @@
                 <div class="main">
                     <asp:Repeater ID="rprCards" runat="server">
                         <ItemTemplate>
-                             <div class="flip-card">
-                                <div class="flip-card-inner">
-                                    <div class="flip-card-front">
-                                       <img src="<%--<%#Eval("img.Url") %>"--%> alt="...">
-                                        <p class="title"><%#Eval("Nombre")%></p>
-                                        <p><%#Eval("Descripcion") %></p>
-                                        <div class="d-grid gap-2 d-md-block">              
+                                     <div class="flip-card">
+                                        <div class="flip-card-inner">
+                                            <div class="flip-card-front">
+                                                   <img id="img-flip-card" src="<%--<%#Eval("img.Url") %>"--%>" alt="...">
+                                                    <p class="title"><%#Eval("Nombre")%></p>
+                                                    <p><%#Eval("Descripcion") %></p>
+                                                    <div class="d-grid gap-2 d-md-block">              
+                                                    </div>
+                                            </div>
+                                            <div class="flip-card-back">
+                                               <h5 class="card-title"><%#Eval("Nombre") %></h5>
+                                                <p class="card-text"><small class="text-body-secondary">Precio <%#Eval("Precio")%></small></p>
+                                                <div class="btns">
+                                                        <asp:Button ID="btnAdd" runat="server"  CssClass="btn-botones" OnClick="btnAdd_Click" type="button" Text=" Agregar " 
+                                                            CommandArgument='<% #Eval("Id")%>' CommandName="artId" />
+                                                      <a href="DetallesArticulos.aspx?Nombre=<%#Eval("Nombre") %>" class="btn-botones">Detalles</a>                                                        
+                                              </div>
+                                           </div>
                                         </div>
-                                    </div>
-                                    <div class="flip-card-back">
-                                       <h5 class="card-title"><%#Eval("Nombre") %></h5>
-                                        <p class="card-text"><small class="text-body-secondary">Precio <%#Eval("Precio")%></small></p>
-                                        <asp:Button ID="btnAdd" runat="server"  CssClass="btnAdd" OnClick="btnAdd_Click" type="button" Text=" Agregar " 
-                                            CommandArgument='<% #Eval("Id")%>' CommandName="artId" />
-                                      <a href="DetallesArticulos.aspx?Nombre=<%#Eval("Nombre") %>" class="btn btn-primary">Ver detalles</a>
-                                
-                           
-                                    </div>
-                                </div>
-                            </div>    
+                                    </div>    
 
                         </ItemTemplate>
                     </asp:Repeater>
@@ -130,12 +131,12 @@
 }
 
 .flip-card {
-      background-color: transparent;
-      width: 300px;
-      height: 450px;
-      perspective: 1000px;
-      font-family: sans-serif;
-      padding: 2rem; 
+    background-color: transparent;
+    width: 300px;
+    height: 450px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    padding: 2rem; 
     position: relative;
     overflow: hidden;
     display: flex;
@@ -143,11 +144,6 @@
     align-items: center;
 }
 
-.btn-botones{
-    padding:5px;
-    align-items:center;
-    justify-content:space-between;
-}
 .title {
   font-size: 1.5em;
   font-weight: 900;
@@ -178,21 +174,52 @@
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1px solid coral;
+  border: 2px solid #FF0060;
   border-radius: 1rem;
 }
 
 .flip-card-front {
-  background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
-     rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
-  color: coral;
+    background: #E76161;
+    color: whitesmoke;
+}
+
+.img-flip-card{
+    border-bottom: 2px solid black;
 }
 
 .flip-card-back {
-  background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
-     bisque 40%, rgb(255, 185, 160) 78%);
+  justify-content:space-around;
+  background: #E76161;
   color: white;
   transform: rotateY(180deg);
+}
+
+.btns{
+    display:grid;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap:20px;
+}
+
+.btn-botones{
+  text-decoration:none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: 2px solid #212A3E;
+  outline-offset: 0px;
+  background: #394867;
+  border: 0;
+  font-weight: bolder;
+  color: white;
+  transition: all .1s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-botones:hover {
+  outline-offset: 3px;
+  outline: 3px solid #212A3E;
+
 }
     </style>
 

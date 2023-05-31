@@ -18,13 +18,11 @@
     <form id="form1" runat="server">
         <header>
             <h1>Pedidos Truchos</h1>
-
     </header>
          <div class:"container">
                   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                   </asp:ContentPlaceHolder>
             </div>
-    
         <div>
             <footer>
                 <hr />
