@@ -1,9 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1.Default" %>
+﻿    <%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-
+        <div id="search-container">
+         <input type="text" id="search-box" placeholder="Buscar">
+         </div>
 
                  <div class="container text-center btnCarrito " id="count">
                         <div class="row">
@@ -221,6 +223,24 @@
   outline: 3px solid #212A3E;
 
 }
+
+#search-container {
+  position: align-content;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+#search-box {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  border-radius: 0,5px;
+}
+
+
+
     </style>
 
 

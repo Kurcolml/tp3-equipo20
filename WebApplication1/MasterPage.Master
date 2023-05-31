@@ -16,6 +16,7 @@
       
    
     <form id="form1" runat="server">
+        <nav>
         <header>
             <h1>Pedidos Truchos</h1>
     </header>
@@ -24,6 +25,8 @@
                   </asp:ContentPlaceHolder>
             </div>
         <div>
+        </nav>
+
             <footer>
                 <hr />
                 Manuel Blanco - Tobias Ponce de Leon - Marcos Zorzoli © 2023
@@ -32,3 +35,13 @@
     </form>
 </body>
 </html>
+<style>
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #f2f2f2;
+}
+</style>
