@@ -89,5 +89,13 @@ namespace WebApplication1
 
             
         }
+
+        protected void Busqueda_TextChanged(object sender, EventArgs e)
+        {
+            List<Articulo> listaFiltrada = ListaArticulos.FindAll(x => x.Nombre.ToUpper().Contains(txtBusqueda.Text.ToUpper()));
+            rprCards.DataSource = listaFiltrada;
+            rprCards.DataBind();
+        }
+
     }
 }

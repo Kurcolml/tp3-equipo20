@@ -3,10 +3,18 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
-        <div id="search-container">
+        
+
+      <%--    <%
+  <div id="search-container">
          <input type="text" id="search-box" placeholder="Buscar">
          </div>
+    <>--%>
+      <div id="search-container">
 
+    <asp:TextBox runat="server" ID="txtBusqueda" CssClass="search-box" AutoPostBack="true" OnTextChanged="Busqueda_TextChanged" />
+
+      </div>
                  <div class="container text-center btnCarrito " id="count">
                         <div class="row">
                             <div class="col">
@@ -230,16 +238,19 @@
   left: 0;
   padding: 10px;
   background-color: #f2f2f2;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
-#search-box {
-  width: 200px;
-  padding: 5px;
-  border: none;
-  border-radius: 0,5px;
+#search-container:focus-within {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
 }
 
-
+ #search-box {
+        width: 200px;
+        padding: 5px;
+        border: none;
+        border-radius: 0,5px;
+  }
 
     </style>
 
