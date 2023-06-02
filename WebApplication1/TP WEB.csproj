@@ -103,7 +103,9 @@
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="Monto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zona.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="MasterPage.Master" />

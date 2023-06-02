@@ -40,6 +40,7 @@ namespace negocio
                     aux.Marca.Descripcion = (string)datos.Lector["Marca"];
                     aux.Precio = (decimal)datos.Lector["Precio"];
                     aux.Imagenes = misImagens.Listar(datos.Lector.GetInt32(0));
+                    aux.Cantidad = 1;
                     lista.Add(aux);
 
 

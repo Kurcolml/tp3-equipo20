@@ -54,15 +54,42 @@ namespace WebApplication1
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-           
+
             string valor = ((Button)sender).CommandArgument;
-           
-               
-            carritoActual.Add(buscarArticulo(valor));
+
+            var aux = buscarArticulo(valor);
+            var lugar = 0;
+            if (ContainsArticulo(valor, ref lugar))
+            {
+                carritoActual[lugar].Cantidad++;
+
+            }
+            else
+            {
+                carritoActual.Add(buscarArticulo(valor));
+
+            }
+
+
             this.Session.Add("listaDeCompras", carritoActual);
 
-            
             Response.Redirect("Default.aspx", false);
+        }
+        public bool ContainsArticulo(string id, ref int index)
+        {
+            bool aux = false;
+            int val = 0;
+            bool numero = int.TryParse(id, out val);
+            for (int i = 0; i < carritoActual.Count; i++)
+            {
+                if (carritoActual[i].Id == val)
+                {
+                    aux = true;
+                    index = i;
+                    return aux;
+                }
+            }
+            return aux;
         }
         public Articulo buscarArticulo(string id)
         {
