@@ -30,7 +30,7 @@ namespace WebApplication1
             NegocioImagen negocioImg = new NegocioImagen();
            
             carritoActual = this.Session["listaDeCompras"] != null ? (List<Articulo>)Session["listaDeCompras"] :  new List<Articulo>();
-
+            BusquedaNull.Visible = false;
            
           
             if (!IsPostBack)
@@ -119,9 +119,22 @@ namespace WebApplication1
 
         protected void Busqueda_TextChanged(object sender, EventArgs e)
         {
+
             List<Articulo> listaFiltrada = ListaArticulos.FindAll(x => x.Nombre.ToUpper().Contains(txtBusqueda.Text.ToUpper()));
-            rprCards.DataSource = listaFiltrada;
-            rprCards.DataBind();
+            if (listaFiltrada.Count == 0)
+            {
+                BusquedaNull.Visible = true;
+                rprCards.DataSource = ListaArticulos;
+                rprCards.DataBind();
+            }
+            else {
+                rprCards.DataSource = listaFiltrada;
+                rprCards.DataBind();
+                BusquedaNull.Visible = false;
+
+            }
+
+
         }
 
     }

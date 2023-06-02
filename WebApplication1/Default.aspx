@@ -12,9 +12,11 @@
     <>--%>
       <div id="search-container">
 
-    <asp:TextBox runat="server" ID="txtBusqueda" CssClass="search-box" AutoPostBack="true" OnTextChanged="Busqueda_TextChanged" />
-
+    <asp:TextBox runat="server" ID="txtBusqueda" CssClass="search-box" AutoPostBack="true" OnTextChanged="Busqueda_TextChanged" OnKeyPress="RealizarBusquedaEnTiempoReal(event)" AutoComplete="off"/>
+                  <asp:Label runat="server" ID="BusquedaNull" Text="No se encontraron resultados"></asp:Label>
       </div>
+
+
                  <div class="container text-center btnCarrito " id="count">
                         <div class="row">
                             <div class="col">
@@ -27,7 +29,6 @@
                             </div>
                        </div>
                </div>
-
     <section class="articulos">
      
         <div class="mega-main">

@@ -33,6 +33,15 @@ namespace WebApplication1
         protected global::System.Web.UI.WebControls.TextBox txtBusqueda;
 
         /// <summary>
+        /// Control BusquedaNull.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label BusquedaNull;
+
+        /// <summary>
         /// Control btnCarro.
         /// </summary>
         /// <remarks>
