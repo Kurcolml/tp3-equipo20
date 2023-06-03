@@ -10,12 +10,45 @@
          <input type="text" id="search-box" placeholder="Buscar">
          </div>
     <>--%>
+
+
       <div id="search-container">
 
-    <asp:TextBox runat="server" ID="txtBusqueda" CssClass="search-box" AutoPostBack="true" OnTextChanged="Busqueda_TextChanged" OnKeyPress="RealizarBusquedaEnTiempoReal(event)" AutoComplete="off"/>
-                  <asp:Label runat="server" ID="BusquedaNull" Text="No se encontraron resultados"></asp:Label>
-      </div>
+    <asp:TextBox runat="server" ID="txtBusqueda" CssClass="search-box" AutoPostBack="true" OnTextChanged="Busqueda_TextChanged" AutoComplete="off" PlaceHolder="Búsqueda"/>
+                   <asp:CheckBox runat="server" ID="chBusqueda" Text="Filtrar" OnCheckedChanged="chBusqueda_CheckedChanged" AutoPostBack="true"></asp:CheckBox>
+                            <asp:Label runat="server" ID="BusquedaNull" Text="No se encontraron resultados" CssClass="lblBusqueda"></asp:Label>
 
+      </div>        
+
+    <%if (FiltroAvanzado) {%> 
+    <div class="BusquedaAvanzadaContenido">
+    <div class="row">
+            <div class="col">
+                    <div class="BusAvanzado">
+                        <asp:Label Text="Categoria" runat="server" />
+                        <asp:DropDownList runat="server" ID="ddlCategoria"></asp:DropDownList>
+
+                    </div>    
+            </div>
+            <div class="col">
+                    <div class="BusAvanzado">
+                        <asp:Label Text="Marca" runat="server" />
+                        <asp:DropDownList runat="server" ID="ddlMarca"></asp:DropDownList>
+
+                    </div>    
+            </div>
+            <div class="col">
+                    <div class="BusAvanzado">
+
+                        <asp:Label Text="Filtro" runat="server" />
+                        <asp:TextBox runat="server" ID="txtBusAvanzada" CssClass="search-box" AutoPostBack="true" OnTextChanged="txtBusAvanzada_TextChanged" AutoComplete="off"/>
+
+
+                    </div>    
+            </div>
+    </div>
+        </div>
+    <% } %>
 
                  <div class="container text-center btnCarrito " id="count">
                         <div class="row">
@@ -105,6 +138,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 .navbar h1{
     position: fixed;
     top: 0;
@@ -131,6 +165,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
  .main{
@@ -139,6 +174,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 5rem;
+
 }
 
 .flip-card {
@@ -234,7 +270,7 @@
 }
 
 #search-container {
-  position: align-content;
+  position: relative;
   top: 0;
   left: 0;
   padding: 10px;
@@ -251,9 +287,28 @@
         padding: 5px;
         border: none;
         border-radius: 0,5px;
-  }
+  } 
+ .lblBusqueda {
+   
+     margin-left:50px;
+        }
+ .BusquedaAvanzadaContenido{
+     
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10px;
+ }
+.row{
+      display: flex;
+  width: 100%;
 
+}
+.col{
+     flex: 1;
+  padding: 10px;
+  margin-left:10px;
+}
     </style>
 
-
 </asp:Content>
+

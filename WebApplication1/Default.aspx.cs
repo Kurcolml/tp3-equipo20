@@ -19,7 +19,8 @@ namespace WebApplication1
         public List<Imagen> listaImagenes { get; set; }
         public Imagen img { get; set; }
 
-      
+        public bool FiltroAvanzado { get; set; }
+
 
         public NegocioImagen negocioImg = new NegocioImagen();
         protected void Page_Load(object sender, EventArgs e)
@@ -28,27 +29,29 @@ namespace WebApplication1
             NegocioArticulo negocio = new NegocioArticulo();
             ListaArticulos = negocio.Listar();
             NegocioImagen negocioImg = new NegocioImagen();
-           
-            carritoActual = this.Session["listaDeCompras"] != null ? (List<Articulo>)Session["listaDeCompras"] :  new List<Articulo>();
+
+            carritoActual = this.Session["listaDeCompras"] != null ? (List<Articulo>)Session["listaDeCompras"] : new List<Articulo>();
             BusquedaNull.Visible = false;
-           
-          
+
+
             if (!IsPostBack)
             {
-                
+
                 rprCards.DataSource = ListaArticulos;
                 rprCards.DataBind();
+                FiltroAvanzado = false;
 
 
-                
 
 
-            }else
+            }
+            else
             {
                 lblCompra.CssClass = "count";
+
             }
-            
-            lblCompra.Text = this.Session["listaDeCompras"] != null ? ((List<Articulo>)Session["listaDeCompras"]).Count.ToString() : lblCompra.CssClass = "invisible"; 
+
+            lblCompra.Text = this.Session["listaDeCompras"] != null ? ((List<Articulo>)Session["listaDeCompras"]).Count.ToString() : lblCompra.CssClass = "invisible";
 
         }
 
@@ -94,14 +97,14 @@ namespace WebApplication1
         public Articulo buscarArticulo(string id)
         {
             Articulo aux = new Articulo();
-            int val=0;
-            bool numero = int.TryParse(id,out val);
+            int val = 0;
+            bool numero = int.TryParse(id, out val);
             foreach (var item in ListaArticulos)
             {
                 if (item.Id == val)
                 {
                     aux = item;
-                    
+
                 }
             }
             return aux;
@@ -109,12 +112,12 @@ namespace WebApplication1
 
         protected void btnCarro_Click(object sender, EventArgs e)
         {
-           
-                Session.Add("listaDeCompras", carritoActual);
-                Response.Redirect("Carrito.aspx", false);
+
+            Session.Add("listaDeCompras", carritoActual);
+            Response.Redirect("Carrito.aspx", false);
 
 
-            
+
         }
 
         protected void Busqueda_TextChanged(object sender, EventArgs e)
@@ -126,16 +129,29 @@ namespace WebApplication1
                 BusquedaNull.Visible = true;
                 rprCards.DataSource = ListaArticulos;
                 rprCards.DataBind();
+
             }
             else {
+
                 rprCards.DataSource = listaFiltrada;
                 rprCards.DataBind();
                 BusquedaNull.Visible = false;
-
             }
-
 
         }
 
+    protected void chBusqueda_CheckedChanged(object sender, EventArgs e)
+        {
+            FiltroAvanzado=chBusqueda.Checked;
+            txtBusqueda.Enabled = !FiltroAvanzado;
+        }
+
+
+
+        protected void txtBusAvanzada_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+    
