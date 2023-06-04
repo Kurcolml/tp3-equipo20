@@ -124,3 +124,12 @@ C:\Users\manue\Desktop\tp3-equipo20-main\negocio\obj\Debug\negocio.csproj.CoreCo
 C:\Users\manue\Desktop\tp3-equipo20-main\negocio\obj\Debug\negocio.csproj.CopyComplete
 C:\Users\manue\Desktop\tp3-equipo20-main\negocio\obj\Debug\negocio.dll
 C:\Users\manue\Desktop\tp3-equipo20-main\negocio\obj\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\bin\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\bin\Debug\negocio.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\bin\Debug\dominio.dll
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\bin\Debug\dominio.pdb
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\obj\Debug\negocio.csproj.CopyComplete
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\obj\Debug\negocio.dll
+D:\User\Desktop\C#\Programacion III\ASPX\t2\tp3-equipo20\negocio\obj\Debug\negocio.pdb

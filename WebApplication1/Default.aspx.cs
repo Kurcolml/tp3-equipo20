@@ -18,18 +18,24 @@ namespace WebApplication1
         public List<Articulo> ListaArticulos { get; set; }
         public List<Articulo> carritoActual { get; set; }
         public List<Imagen> listaImagenes { get; set; }
-        public Imagen img { get; set; }
-
-        public bool FiltroAvanzado { get; set; }
-
 
         public NegocioImagen negocioImg = new NegocioImagen();
+        public bool FiltroAvanzado { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            // Generacion de los datos de las CARDS
             NegocioArticulo negocio = new NegocioArticulo();
             ListaArticulos = negocio.Listar();
+
             NegocioImagen negocioImg = new NegocioImagen();
+
+            for (int i = 0; i < ListaArticulos.Count(); i++)
+            {
+                listaImagenes = negocioImg.Listar(ListaArticulos[i].Id);
+                ListaArticulos[i].Imagenes = listaImagenes;
+            }
+
+            //
 
             carritoActual = this.Session["listaDeCompras"] != null ? (List<Articulo>)Session["listaDeCompras"] : new List<Articulo>();
             BusquedaNull.Visible = false;
