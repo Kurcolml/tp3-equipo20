@@ -285,11 +285,28 @@ namespace WebApplication1
         }
         protected void chMenorPrecio_CheckedChanged(object sender, EventArgs e)
         {
+            if(chMenorPrecio.Checked)
+            {
+                chMayorPrecio.Enabled = false;
+            }
+            else
+            {
+                chMayorPrecio.Enabled = true;
 
+            }
         }
         protected void chMayorPrecio_CheckedChanged(object sender, EventArgs e)
         {
+            if (chMayorPrecio.Checked)
+            {
+                chMenorPrecio.Enabled = false;
 
+            }
+            else
+            {
+                chMenorPrecio.Enabled = true;
+
+            }
         }
     }
 }
