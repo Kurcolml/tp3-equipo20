@@ -146,7 +146,14 @@ namespace WebApplication1
                 txtBusqueda.Text ="";
 
             }
-
+            if (!chBusqueda.Checked)
+            {
+                rprCards.DataSource = ListaArticulos;
+                rprCards.DataBind();
+                FiltroAvanzado = false;
+                ddlMarca.SelectedIndex = 0;
+                ddlCategoria.SelectedIndex = 0;
+            }
 
         }
 
@@ -229,7 +236,24 @@ namespace WebApplication1
         }
         protected void txtBusAvanzada_TextChanged(object sender, EventArgs e)
         {
+            List<Articulo> listaFiltrada = ListaArticulos.FindAll(x => x.Marca.Descripcion.ToUpper().Contains(ddlMarca.SelectedItem.Text.ToUpper()) && x.Categoria.Descripcion.ToUpper().Contains(ddlCategoria.SelectedItem.Text.ToUpper())&& x.Nombre.ToUpper().Contains(txtBusAvanzada.Text.ToUpper()));
+            if (listaFiltrada.Count == 0)
+            {
+                ddlMarca_SelectedIndexChanged(sender, e);
+                BusquedaNull.Visible = true;
+                FiltroAvanzado = true;
 
+
+            }
+            else
+            {
+
+                rprCards.DataSource = listaFiltrada;
+                rprCards.DataBind();
+                BusquedaNull.Visible = false;
+                FiltroAvanzado = true;
+
+            }
         }
 
         protected void Filtro_porCategoria(object sender, EventArgs e)
