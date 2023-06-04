@@ -195,6 +195,7 @@ namespace WebApplication1
             ddlMarca.DataBind();
             Filtro_porCategoria(sender, e);
             FiltroAvanzado = true;
+            txtBusAvanzada.Enabled = false;
 
         }
 
@@ -218,7 +219,12 @@ namespace WebApplication1
             if (ddlMarca.SelectedValue == "") { 
             ddlCategoria_SelectedIndexChanged(sender, e);
             }
+            else
+            {
+                txtBusAvanzada.Enabled = true;
 
+            }
+        
 
         }
         protected void txtBusAvanzada_TextChanged(object sender, EventArgs e)

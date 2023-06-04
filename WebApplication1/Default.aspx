@@ -41,7 +41,7 @@
                     <div class="BusAvanzado">
 
                         <asp:Label Text="Filtro" runat="server" />
-                        <asp:TextBox runat="server" ID="txtBusAvanzada" CssClass="search-box" AutoPostBack="true" OnTextChanged="txtBusAvanzada_TextChanged" AutoComplete="off"/>
+                        <asp:TextBox runat="server" ID="txtBusAvanzada" CssClass="search-box" AutoPostBack="true" OnTextChanged="txtBusAvanzada_TextChanged" AutoComplete="off" Enabled="false"/>
 
 
                     </div>    
