@@ -253,8 +253,8 @@
 
  .FiltroPrecio {
 float:right;    
-margin:15px;
-padding:10px;
+margin:5px;
+padding:5px;
  }
         
 

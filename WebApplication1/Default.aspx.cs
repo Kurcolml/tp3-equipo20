@@ -163,8 +163,14 @@ namespace WebApplication1
                 rprCards.DataSource = ListaArticulos;
                 rprCards.DataBind();
                 FiltroAvanzado = false;
-
+                chMenorPrecio.Enabled = true;
+                chMayorPrecio.Enabled = true;
                 ddlCategoria.SelectedIndex = 0;
+            }
+            else
+            {
+                chMenorPrecio.Enabled = false;
+                chMayorPrecio.Enabled = false;
             }
 
         }
@@ -291,13 +297,29 @@ namespace WebApplication1
         }
         protected void chMenorPrecio_CheckedChanged(object sender, EventArgs e)
         {
+
+
             if(chMenorPrecio.Checked)
             {
+                chBusqueda.Enabled = false;
+                chMenorPrecio.Enabled = true;
                 chMayorPrecio.Enabled = false;
+
+                List<Articulo> articulo = ListaArticulos;
+
+                articulo = articulo.OrderBy(p => p.Precio).ToList();
+
+                rprCards.DataSource = articulo;
+                rprCards.DataBind();
+
             }
-            else
+            else if(!chMayorPrecio.Checked)
             {
+                rprCards.DataSource = ListaArticulos;
+                rprCards.DataBind();
                 chMayorPrecio.Enabled = true;
+                chMenorPrecio.Enabled = true;
+                chBusqueda.Enabled = true;
 
             }
         }
@@ -305,12 +327,26 @@ namespace WebApplication1
         {
             if (chMayorPrecio.Checked)
             {
+                chBusqueda.Enabled = false;
                 chMenorPrecio.Enabled = false;
+                chMayorPrecio.Enabled = true;
+
+                List<Articulo> articulo = ListaArticulos;
+
+                articulo = articulo.OrderByDescending(p => p.Precio).ToList();
+
+                rprCards.DataSource = articulo;
+                rprCards.DataBind();
+
 
             }
-            else
+            else if(!chMenorPrecio.Checked)
             {
+                rprCards.DataSource = ListaArticulos;
+                rprCards.DataBind();
+                chMayorPrecio.Enabled = true;
                 chMenorPrecio.Enabled = true;
+                chBusqueda.Enabled = true;
 
             }
         }
