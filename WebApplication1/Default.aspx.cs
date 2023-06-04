@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.EnterpriseServices;
 using System.Linq;
+using System.Security.Policy;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -40,9 +41,7 @@ namespace WebApplication1
                 rprCards.DataSource = ListaArticulos;
                 rprCards.DataBind();
                 FiltroAvanzado = false;
-
-
-
+                ddlCategoria_Llenado(sender, e);    
 
             }
             else
@@ -70,7 +69,6 @@ namespace WebApplication1
             else
             {
                 carritoActual.Add(buscarArticulo(valor));
-
             }
 
 
@@ -140,16 +138,88 @@ namespace WebApplication1
 
         }
 
-    protected void chBusqueda_CheckedChanged(object sender, EventArgs e)
+        protected void chBusqueda_CheckedChanged(object sender, EventArgs e)
         {
-            FiltroAvanzado=chBusqueda.Checked;
+            FiltroAvanzado = chBusqueda.Checked;
             txtBusqueda.Enabled = !FiltroAvanzado;
+            if (!(string.IsNullOrEmpty(txtBusqueda.Text)))
+            {
+                txtBusqueda.Text ="";
+
+            }
+
+
         }
 
+        protected void ddlCategoria_Llenado(object sender, EventArgs e)
+        {
+            List<string> categorias = new List<string>();
+            ddlCategoria.Items.Clear();
+
+            foreach (Articulo articulo in ListaArticulos)
+            {
+
+                string categoria = articulo.Categoria.Descripcion;
+
+                if (!categorias.Contains(categoria))
+                {
+                    categorias.Add(categoria);
+                }
+            }
+            ddlCategoria.DataSource = categorias;
+            ddlCategoria.DataBind();
+        }
+
+        protected void ddlCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            List<string> marcas= new List<string>();
+            ddlMarca.Items.Clear();
+
+            foreach (Articulo articulo in ListaArticulos)
+            {
+                if (articulo.Categoria.Id == ddlCategoria.SelectedIndex)
+                {
+                    string marca = articulo.Marca.Descripcion;
+
+                    if (!marcas.Contains(marca))
+                    {
+                        marcas.Add(marca);
+                    }
+                }
+
+            } 
+
+            ddlMarca.DataSource = marcas;
+            ddlMarca.DataBind();
+            Filtro_porCategoria(sender, e);
+            chBusqueda.Checked = false;
 
 
+        }
         protected void txtBusAvanzada_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        protected void Filtro_porCategoria(object sender, EventArgs e)
+        {
+
+
+            List<Articulo> listaFiltrada = ListaArticulos.FindAll(x => x.Categoria.Descripcion.ToUpper().Contains(ddlCategoria.SelectedItem.Text.ToUpper()));
+            if (listaFiltrada.Count == 0)
+            {
+                BusquedaNull.Visible = true;
+                rprCards.DataSource = ListaArticulos;
+                rprCards.DataBind();
+
+            }
+            else
+            {
+
+                rprCards.DataSource = listaFiltrada;
+                rprCards.DataBind();
+                BusquedaNull.Visible = false;
+            }
 
         }
     }

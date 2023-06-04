@@ -26,13 +26,13 @@
             <div class="col">
                     <div class="BusAvanzado">
                         <asp:Label Text="Categoria" runat="server" />
-                        <asp:DropDownList runat="server" ID="ddlCategoria"></asp:DropDownList>
+                        <asp:DropDownList runat="server" ID="ddlCategoria" OnSelectedIndexChanged="ddlCategoria_SelectedIndexChanged" AutoPostBack="true"></asp:DropDownList>
 
                     </div>    
             </div>
             <div class="col">
                     <div class="BusAvanzado">
-                        <asp:Label Text="Marca" runat="server" />
+                        <asp:Label Text="Marca" runat="server"/>
                         <asp:DropDownList runat="server" ID="ddlMarca"></asp:DropDownList>
 
                     </div>    
