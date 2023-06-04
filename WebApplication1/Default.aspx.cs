@@ -45,6 +45,12 @@ namespace WebApplication1
             }
             else
             {
+                if (!chBusqueda.Checked)
+                {
+                    ddlMarca.SelectedValue = "";
+
+                }
+                
                 lblCompra.CssClass = "count";
 
             }
@@ -151,7 +157,7 @@ namespace WebApplication1
                 rprCards.DataSource = ListaArticulos;
                 rprCards.DataBind();
                 FiltroAvanzado = false;
-                ddlMarca.SelectedIndex = 0;
+
                 ddlCategoria.SelectedIndex = 0;
             }
 
@@ -275,6 +281,14 @@ namespace WebApplication1
                 rprCards.DataBind();
                 BusquedaNull.Visible = false;
             }
+
+        }
+        protected void chMenorPrecio_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        protected void chMayorPrecio_CheckedChanged(object sender, EventArgs e)
+        {
 
         }
     }
