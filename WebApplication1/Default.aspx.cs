@@ -41,8 +41,7 @@ namespace WebApplication1
                 rprCards.DataSource = ListaArticulos;
                 rprCards.DataBind();
                 FiltroAvanzado = false;
-                ddlCategoria_Llenado(sender, e);    
-
+                ddlCategoria_Llenado(sender, e);
             }
             else
             {
@@ -155,6 +154,7 @@ namespace WebApplication1
         {
             List<string> categorias = new List<string>();
             ddlCategoria.Items.Clear();
+            categorias.Add("");
 
             foreach (Articulo articulo in ListaArticulos)
             {
@@ -168,16 +168,18 @@ namespace WebApplication1
             }
             ddlCategoria.DataSource = categorias;
             ddlCategoria.DataBind();
+
         }
 
         protected void ddlCategoria_SelectedIndexChanged(object sender, EventArgs e)
         {
             List<string> marcas= new List<string>();
             ddlMarca.Items.Clear();
+            marcas.Add("");
 
             foreach (Articulo articulo in ListaArticulos)
             {
-                if (articulo.Categoria.Id == ddlCategoria.SelectedIndex)
+                if (articulo.Categoria.Descripcion == ddlCategoria.SelectedItem.Text)
                 {
                     string marca = articulo.Marca.Descripcion;
 
@@ -192,7 +194,30 @@ namespace WebApplication1
             ddlMarca.DataSource = marcas;
             ddlMarca.DataBind();
             Filtro_porCategoria(sender, e);
-            chBusqueda.Checked = false;
+            FiltroAvanzado = true;
+
+        }
+
+        protected void ddlMarca_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            List<Articulo> listaFiltrada = ListaArticulos.FindAll(x => x.Marca.Descripcion.ToUpper().Contains(ddlMarca.SelectedItem.Text.ToUpper()) && x.Categoria.Descripcion.ToUpper().Contains(ddlCategoria.SelectedItem.Text.ToUpper()));
+            
+            if (listaFiltrada.Count == 0)
+            {
+                BusquedaNull.Visible = true;
+
+            }
+            else
+            {
+
+                rprCards.DataSource = listaFiltrada;
+                rprCards.DataBind();
+                BusquedaNull.Visible = false;
+            }
+            FiltroAvanzado = true;
+            if (ddlMarca.SelectedValue == "") { 
+            ddlCategoria_SelectedIndexChanged(sender, e);
+            }
 
 
         }

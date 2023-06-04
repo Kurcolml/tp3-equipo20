@@ -33,7 +33,7 @@
             <div class="col">
                     <div class="BusAvanzado">
                         <asp:Label Text="Marca" runat="server"/>
-                        <asp:DropDownList runat="server" ID="ddlMarca"></asp:DropDownList>
+                        <asp:DropDownList runat="server" ID="ddlMarca" OnSelectedIndexChanged="ddlMarca_SelectedIndexChanged" AutoPostBack="true"></asp:DropDownList>
 
                     </div>    
             </div>
